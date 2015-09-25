@@ -23,10 +23,9 @@
 </head>
 
 <body id="page-top">
-
+  <header class="landing">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -36,7 +35,6 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">R!SK</a>
             </div>
-
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -55,74 +53,66 @@
             </div>
         </div>
     </nav>
+    <video autoplay muted loop>
+      <source src="chrisdenholmhelsinkiinmotionmp4.m4v"/></source>
+    </video>
+  
+  <div class="video_overlay">
+    <div class="container">
+      <div class="landing_content">
+        <img class="logo" src="img/risk_logo.png"/>
+        <h2> BREAK THROUGH YOUR WALLS</h2>
+        <a href="#about" class="btn btn-primary btn-xl page-scroll">More</a>
+      </div>
+    </div>
+  </div>
+</header> <!-- -/ landing - -->
 
-    <header>
-
-        <video autoplay loop>
-<source src="chrisdenholmhelsinkiinmotionmp4.m4v">
-</video>
-
-        <div class="video-overlay">
-        <div class="header-content">
-            <div class="header-content-inner">
-                <img src="http://static.wixstatic.com/media/e553cf_c54eabff0d6946f4a26e5d4ab7b3c5de.png_srb_p_583_407_75_22_0.50_1.20_0.00_png_srb"> </img>
-                <hr>
-                <h2> BREAK THROUGH YOUR WALLS</h2>
-                <br>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">More</a>
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/B5TjVRvDZxk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <h2 class="section-heading-2">We made it easy to start.</h2>
             </div>
         </div>
-         </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-
-                    <iframe width="640" height="360" src="https://www.youtube.com/embed/B5TjVRvDZxk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-                    <h2 class="section-heading-2">We made it easy to start.</h2>
-                </div>
+    </div>
+</section>
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">At Your Service</h2>
+                <hr class="primary">
             </div>
         </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
+    </div>
+    <div class="container">
+        <div class="row lefter">
+            <div class="col-lg-4 col-md-4 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                    <h3>Something</h3>
+                    <p class="text-muted">Here is the something.</p>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row lefter">
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>Something</h3>
-                        <p class="text-muted">Here is the something.</p>
-                    </div>
+            <div class="col-lg-4 col-md-4 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                    <h3>Something Else</h3>
+                    <p class="text-muted">Here is the something.</p>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Something Else</h3>
-                        <p class="text-muted">Here is the something.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Something Else</h3>
-                        <p class="text-muted">Here is the something.</p>
-                    </div>
+            </div>
+            <div class="col-lg-4 col-md-4 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                    <h3>Something Else</h3>
+                    <p class="text-muted">Here is the something.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <div class="portfolio-items" id="portfolio">
 <section class="container">
@@ -156,57 +146,59 @@
    			</div>
 		</div> <!--close column-->
 
-        <div class="col-md-4 col-sm-12 col-xs-12">
-			<div class="work-item">
-     			<h5>Something</h5>
-     			<a href="#" target="_blank"><div class="overlay img-responsive"><img src="img/events.png" alt="Sparked Education"><div class="site-link"><i class="fa fa-search"></i></div></div></a>
-     			<p>We made something.
-     			</p>
-     			<div class="work-item-footer">
-					<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-				</div>
-   			</div>
+<div class="col-md-4 col-sm-12 col-xs-12">
+	<div class="work-item">
+ 			<h5>Something</h5>
+ 			<a href="#" target="_blank">
+        <div class="overlay img-responsive">
+          <img src="img/events.png" alt="Sparked Education"/>
+          <div class="site-link">
+            <i class="fa fa-search"></i>
+          </div>
+        </div>
+      </a>
+ 			<p>We made something.</p>
+ 		<div class="work-item-footer">
+			<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
 		</div>
-
 	</div>
+</div>
+
+</div>
 
 </section>
 </div>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Contact!</h2>
-                    <hr class="primary">
-                    <p>Something is here.</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>532-234-2321</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">contact@contact.om</a></p>
-                </div>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Contact!</h2>
+                <hr class="primary">
+                <p>Something is here.</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                <p>532-234-2321</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p><a href="mailto:your-email@your-domain.com">contact@contact.om</a></p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/wow.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/creative.js"></script>
 
 </body>
-
 </html>
