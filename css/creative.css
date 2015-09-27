@@ -29,12 +29,10 @@ a {
   -moz-transition: all .35s;
   transition: all .35s; }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #eb3812; }
 
-h1, h2, h3, h4, h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat',Arial,sans-serif; }
 
 p {
@@ -132,7 +130,8 @@ video {
   text-align: center;
   width: 100%;
   z-index: 0;
-  border: none; }
+  border: none;
+  margin: -5px; }
 
 .landing {
   background: #000;
@@ -153,7 +152,7 @@ video {
 
 .logo {
   width: 300px;
-  padding: 10% 0 0 0;
+  padding: 7% 0 0 0;
   display: block;
   margin: 0 auto; }
 
@@ -252,19 +251,12 @@ Buttons
   -moz-transition: all .35s;
   transition: all .35s; }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
   border-color: #fff;
   color: #ee4b28;
   background-color: #fff; }
 
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
   background-image: none; }
 
 .btn-default {
@@ -275,62 +267,10 @@ Buttons
   -moz-transition: all .35s;
   transition: all .35s; }
 
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
   border-color: #ededed;
   color: #222;
   background-color: #f2f2f2; }
-
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-  background-image: none; }
-
-.btn-default.disabled,
-.btn-default[disabled],
-fieldset[disabled] .btn-default,
-.btn-default.disabled:hover,
-.btn-default[disabled]:hover,
-fieldset[disabled] .btn-default:hover,
-.btn-default.disabled:focus,
-.btn-default[disabled]:focus,
-fieldset[disabled] .btn-default:focus,
-.btn-default.disabled.focus,
-.btn-default[disabled].focus,
-fieldset[disabled] .btn-default.focus,
-.btn-default.disabled:active,
-.btn-default[disabled]:active,
-fieldset[disabled] .btn-default:active,
-.btn-default.disabled.active,
-.btn-default[disabled].active,
-fieldset[disabled] .btn-default.active {
-  border-color: #fff;
-  background-color: #fff; }
-
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled.focus,
-.btn-primary[disabled].focus,
-fieldset[disabled] .btn-primary.focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-  border-color: #f05f40;
-  background-color: #f05f40; }
 
 .btn-primary .badge {
   color: #f05f40;
@@ -352,25 +292,8 @@ fieldset[disabled] .btn-primary.active {
 .section-heading-2 {
   margin-top: 60px; }
 
-/*
-~~
-Media Queries (in descending order)
-~~
-*/
-@media (max-width: 1067px) {
-  video {
-    display: none; } }
-@media (max-width: 1067px) {
-  .landing {
-    background-image: url(../img/video_pic.jpg);
-    background-size: cover;
-    height: 500px;
-    background-position: 30%; } }
-@media (max-width: 992px) {
-  .service-box {
-    margin: 20px auto 0; } }
 .navbar-default {
-  border-color: rgba(255, 255, 255, 0.3);
+  border: none;
   background-color: transparent; }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -386,7 +309,8 @@ Media Queries (in descending order)
 
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fff; }
+  color: #f05f40;
+  /* ~~~ */ }
 
 .navbar-default.affix {
   border-color: rgba(34, 34, 34, 0.05);
@@ -413,5 +337,29 @@ Media Queries (in descending order)
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 22px; }
+
+/*
+~~
+Media Queries (in descending order)
+~~
+*/
+@media (max-width: 1067px) {
+  video {
+    display: none; } }
+@media (max-width: 1067px) {
+  .landing {
+    background-image: url(../img/video_pic.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: 30%; } }
+@media (max-width: 992px) {
+  .service-box {
+    margin: 20px auto 0; } }
+@media (max-width: 767px) {
+  .navbar-default .navbar-collapse {
+    background-color: #fff; }
+
+  .navbar-default .nav > li > a {
+    color: #222; } }
 
 /*# sourceMappingURL=creative.css.map */

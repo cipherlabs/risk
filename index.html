@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>R!SK - Break Walls</title>
-
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/custom.css" type="text/css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link href="css/carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
 </head>
-
 <body id="page-top">
   <header class="landing">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -44,7 +38,7 @@
                         <a class="page-scroll" href="#services">how</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">events</a>
+                        <a class="page-scroll" href="#event_space">events</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">contacts</a>
@@ -56,7 +50,6 @@
     <video autoplay muted loop>
       <source src="chrisdenholmhelsinkiinmotionmp4.m4v"/></source>
     </video>
-  
   <div class="video_overlay">
     <div class="container">
       <div class="landing_content">
@@ -68,12 +61,13 @@
     </div>
   </div>
 </header> <!-- -/ landing - -->
-
 <section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-lg-offset-3 text-center">
-                <iframe src="https://www.youtube.com/embed/B5TjVRvDZxk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 text-center">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B5TjVRvDZxk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </div>
                 <h2 class="section-heading-2">We made it easy to start.</h2>
             </div>
         </div>
@@ -115,60 +109,176 @@
     </div>
 </section>
 
-    <div class="portfolio-items" id="portfolio">
-<section class="container">
-	<div class="row">
-		<div class="col-md-12">
-		<h2 class="section-title">Our Events </h2>
-				<!-- <p class="tech-description">Some shit is better than no shit.</p> -->
-		</div>
-
-		<div class="col-md-4 col-sm-12 col-xs-12">
-			<div class="work-item">
-     			<h5>Something</h5>
-     			<a href="#" target="_blank"><div class="overlay img-responsive"><img src="img/events.png" alt="Sparked Education"><div class="site-link"><i class="fa fa-search"></i></div></div></a>
-     			<p>We made something.
-     			</p>
-     			<div class="work-item-footer">
-					<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-				</div>
-   			</div>
-		</div> <!--close column-->
-
-        <div class="col-md-4 col-sm-12 col-xs-12">
-			<div class="work-item">
-     			<h5>Something</h5>
-     			<a href="#" target="_blank"><div class="overlay img-responsive"><img src="img/events.png" alt="Sparked Education"><div class="site-link"><i class="fa fa-search"></i></div></div></a>
-     			<p>We made something.
-     			</p>
-     			<div class="work-item-footer">
-					<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-				</div>
-   			</div>
-		</div> <!--close column-->
-
-<div class="col-md-4 col-sm-12 col-xs-12">
-	<div class="work-item">
- 			<h5>Something</h5>
- 			<a href="#" target="_blank">
-        <div class="overlay img-responsive">
-          <img src="img/events.png" alt="Sparked Education"/>
-          <div class="site-link">
-            <i class="fa fa-search"></i>
-          </div>
-        </div>
-      </a>
- 			<p>We made something.</p>
- 		<div class="work-item-footer">
-			<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-		</div>
-	</div>
-</div>
-
-</div>
-
-</section>
-</div>
+<section class="event_space" id="event_space">
+<div id="slide_wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="section-title">Our Events </h2>
+            <p class="tech-description">Some shit is better than no shit.</p>
+      </div><!-- -/ col - -->    
+    </div><!-- -/row - -->
+    <div class="row">
+      <div class="span12">
+        <div id="event_slide" class="event_slide">
+          <div class="item">
+            <div class="work_item">
+                <h5>Something</h5>
+                <a href="#" target="_blank">
+                <div class="overlay img-responsive">
+                  <img src="img/events.png" alt="Sparked Education">
+                  <div class="site-link">
+                  <i class="fa fa-search"></i>
+                  </div>
+                </div>
+                </a>
+                  <p>We made something.</p>
+                <div class="work_item_foot">
+                  <a href="#" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                  </a>
+                </div><!-- -/ work_item_foot - -->
+            </div><!-- -/ work_item - -->
+          </div><!-- -/ item - -->
+          <div class="item">
+            <div class="work_item">
+                <h5>Something</h5>
+                <a href="#" target="_blank">
+                <div class="overlay img-responsive">
+                  <img src="img/events.png" alt="Sparked Education">
+                  <div class="site-link">
+                  <i class="fa fa-search"></i>
+                  </div>
+                </div>
+                </a>
+                  <p>We made something.</p>
+                <div class="work_item_foot">
+                  <a href="#" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                  </a>
+                </div><!-- -/ work_item_foot - -->
+            </div><!-- -/ work_item - -->
+          </div><!-- -/ item - -->
+          <div class="item">
+            <div class="work_item">
+                <h5>Something</h5>
+                <a href="#" target="_blank">
+                <div class="overlay img-responsive">
+                  <img src="img/events.png" alt="Sparked Education">
+                  <div class="site-link">
+                  <i class="fa fa-search"></i>
+                  </div>
+                </div>
+                </a>
+                  <p>We made something.</p>
+                <div class="work_item_foot">
+                  <a href="#" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                  </a>
+                </div><!-- -/ work_item_foot - -->
+            </div><!-- -/ work_item - -->
+          </div><!-- -/ item - -->
+          <div class="item">
+            <div class="work_item">
+                <h5>Something</h5>
+                <a href="#" target="_blank">
+                <div class="overlay img-responsive">
+                  <img src="img/events.png" alt="Sparked Education">
+                  <div class="site-link">
+                  <i class="fa fa-search"></i>
+                  </div>
+                </div>
+                </a>
+                  <p>We made something.</p>
+                <div class="work_item_foot">
+                  <a href="#" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                  </a>
+                </div><!-- -/ work_item_foot - -->
+            </div><!-- -/ work_item - -->
+          </div><!-- -/ item - -->
+          <div class="item">
+            <div class="work_item">
+                <h5>Something</h5>
+                <a href="#" target="_blank">
+                <div class="overlay img-responsive">
+                  <img src="img/events.png" alt="Sparked Education">
+                  <div class="site-link">
+                  <i class="fa fa-search"></i>
+                  </div>
+                </div>
+                </a>
+                  <p>We made something.</p>
+                <div class="work_item_foot">
+                  <a href="#" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                  </a>
+                </div><!-- -/ work_item_foot - -->
+            </div><!-- -/ work_item - -->
+          </div><!-- -/ item - -->
+          <div class="item">
+            <div class="work_item">
+                <h5>Something</h5>
+                <a href="#" target="_blank">
+                <div class="overlay img-responsive">
+                  <img src="img/events.png" alt="Sparked Education">
+                  <div class="site-link">
+                  <i class="fa fa-search"></i>
+                  </div>
+                </div>
+                </a>
+                  <p>We made something.</p>
+                <div class="work_item_foot">
+                  <a href="#" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                  </a>
+                </div><!-- -/ work_item_foot - -->
+            </div><!-- -/ work_item - -->
+          </div><!-- -/ item - -->
+          <div class="item">
+            <div class="work_item">
+                <h5>Something</h5>
+                <a href="#" target="_blank">
+                <div class="overlay img-responsive">
+                  <img src="img/events.png" alt="Sparked Education">
+                  <div class="site-link">
+                  <i class="fa fa-search"></i>
+                  </div>
+                </div>
+                </a>
+                  <p>We made something.</p>
+                <div class="work_item_foot">
+                  <a href="#" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                  </a>
+                </div><!-- -/ work_item_foot - -->
+            </div><!-- -/ work_item - -->
+          </div><!-- -/ item - -->
+          <div class="item">
+            <div class="work_item">
+                <h5>Something</h5>
+                <a href="#" target="_blank">
+                <div class="overlay img-responsive">
+                  <img src="img/events.png" alt="Sparked Education">
+                  <div class="site-link">
+                  <i class="fa fa-search"></i>
+                  </div>
+                </div>
+                </a>
+                  <p>We made something.</p>
+                <div class="work_item_foot">
+                  <a href="#" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                  </a>
+                </div><!-- -/ work_item_foot - -->
+            </div><!-- -/ work_item - -->
+          </div><!-- -/ item - -->
+        </div><!-- -/ event_slide - -->
+      </div>
+    </div>
+  </div>
+</div><!-- -/ slide_wrap - -->
+</section><!-- -/ event_space -->
 
 <section id="contact">
     <div class="container">
@@ -184,12 +294,11 @@
             </div>
             <div class="col-lg-4 text-center">
                 <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:your-email@your-domain.com">contact@contact.om</a></p>
+                <p><a href="mailto:your-email@your-domain.com">contact@contact.com</a></p>
             </div>
         </div>
     </div>
-</section>
-
+</section><!-- -/ contact -->
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
@@ -198,8 +307,20 @@
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/jquery.fittext.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/owl.carousel.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="js/creative.js"></script>
+    <script>
+    $(document).ready(function() {
+
+      $("#event_slide").owlCarousel({
+        items : 4,
+        autoPlay: 8000,
+        lazyLoad : true,
+        navigation : true
+      });
+    });
+</script>
 
 </body>
 </html>
